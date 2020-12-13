@@ -2,4 +2,4 @@
 This is the official webpage of the 
 *Flow-based Generative Models for Learning Manifold to Manifold Mappings* in AAAI 2021
 
-More details will be add shortly.
+More details will be added shortly.
