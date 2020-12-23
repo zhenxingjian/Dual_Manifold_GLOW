@@ -27,7 +27,42 @@ You will need to register an accound for downloading.
   
   This will unzip all the zip files and remove after unzipping.
 
-## Pre-processing, from dMRI to ODF and DTI
+## Pre-processing
+### From dMRI to ODF and DTI
+Run the following command. 
 ``` bash
 python process_dMRI.py
 ```
+Note that the mainPATH (line 72) and the name (line 64) need to be modified to suit the correct location and index. Details please refer to the comments in the code.
+
+### Move the data into the same folder with correct file name
+Run the following command. 
+``` bash
+python shuffle_data.py
+```
+Note that the processed data path (line 9) and the HCP data path (line 20) need to be modified if not store all the files in the default location.
+
+One more thing to explain about why these steps are splitted into several files: the data is very large and fully process from dMRI into DTI and ODF will require longer time. If the processer dumps, you can just re-run the single step file instead of all the pre-processing steps again.
+
+### Compute the eigen values and normalized ODF
+Run the following command. 
+``` bash
+python eig.py
+```
+Note that the processed data path (line 4) need to be modified if not store all the files in the default location.
+
+The original processed ODF has different sum, which comes from the implementation within [dipy toolbox](https://dipy.org). But by normalize each voxel to have sum of 1, it will be the actual ODF.
+
+One more thing to be mentioned, in our paper, we claim that ODF lies on S^{361} space. This comes from the square root representation of the original ODF. Then, instead of "sum" to be one, it will become "sum of square" to be 1, which is a hyper-sphere.
+
+
+
+
+
+
+
+
+
+
+
+
