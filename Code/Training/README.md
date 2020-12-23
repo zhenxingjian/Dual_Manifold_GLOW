@@ -13,4 +13,4 @@ python train.py
 ```
 
 ## Model
-
+Model is defined in [model.py](model.py)
