@@ -9,7 +9,7 @@ Run the followings:
 cd Dual_Manifold_Glow
 mkdir models
 cd models
-wget https://drive.google.com/file/d/1EkrzBANwr46OZ7anZ4QcM6KsYF7UJ09T/view?usp=sharing
+mv PATH/TO/DOWNLOAD/DTI2ODF-3D-pretrain.pth .
 ```
 
 Also, the model can be trained from scratch with the default hyperparameters.
