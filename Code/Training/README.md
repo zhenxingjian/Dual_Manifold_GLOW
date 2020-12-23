@@ -26,3 +26,5 @@ The reason to write it this way is to support multi-GPU training. There might be
 
 ## Dataloader
 Dataloader is defined in [dataset_HCP.py](dataset_HCP.py)
+
+It will use "DataLoaderX" as the background loader so that it can fully use the CPU and I/O.
