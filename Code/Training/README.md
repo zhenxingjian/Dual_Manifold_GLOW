@@ -4,6 +4,14 @@ The code for training is mainly finished by Xingjian Zhen together with Liu Yang
 ## Pretrained model
 The pretrained model can be found in [Google Drive](https://drive.google.com/file/d/1EkrzBANwr46OZ7anZ4QcM6KsYF7UJ09T/view?usp=sharing). 
 
+Run the followings:
+``` bash
+cd Dual_Manifold_Glow
+mkdir models
+cd models
+wget https://drive.google.com/file/d/1EkrzBANwr46OZ7anZ4QcM6KsYF7UJ09T/view?usp=sharing
+```
+
 Also, the model can be trained from scratch with the default hyperparameters.
 
 ## Train
