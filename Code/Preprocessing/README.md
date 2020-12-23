@@ -55,7 +55,12 @@ The original processed ODF has different sum, which comes from the implementatio
 
 One more thing to be mentioned, in our paper, we claim that ODF lies on S^{361} space. This comes from the square root representation of the original ODF. Then, instead of "sum" to be one, it will become "sum of square" to be 1, which is a hyper-sphere.
 
-
+### Split between train and test
+Run the following command. 
+``` bash
+python Split_train_test.py
+```
+We also provide the train/ test split that we use in our paper in [train_files.json](train_files.json) and [test_files.json](test_files.json).
 
 
 
