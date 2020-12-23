@@ -101,7 +101,7 @@ def main():
 
                 loss = logdet + logpz * 0.001  # NOTE
                 loss = - loss.mean()
-                odf_, dti_, eig_ = Model(odff, dtii, eigg, 8, reverse=True)
+                odf_, dti_, eig_ = Model(odff, dtii, eigg, extra = 8, reverse=True)
                
                 edti = (msk.unsqueeze(-1).unsqueeze(-1) * ((dti - dti_) ** 2)).sum()
                 eodf = (msk.unsqueeze(-1) * ((odf - odf_) ** 2)).sum()
