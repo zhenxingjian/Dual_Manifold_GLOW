@@ -19,3 +19,15 @@ You will need to register an accound for downloading.
 
 - The Aspera Connect will automaticly pop up. If not, it might because of the delay of the network. Please wait for a while. If still cannot download, please refer to [Aspera FAQ](http://humanconnectome.org/documentation/connectomeDB/downloading/installing-aspera.html) or the instruction in the downloading pages. 
 
+- After downloading, unzip all the zip files. For example, using this bash comments:
+
+  ``` bash
+  for i in $(ls *.zip);do unzip $i&&rm $i;done
+  ```
+  
+  This will unzip all the zip files and remove after unzipping.
+
+## Pre-processing, from dMRI to ODF and DTI
+``` bash
+python process_dMRI.py
+```
