@@ -19,7 +19,7 @@ To train the model, run
 ``` bash
 python train.py
 ```
-Hyperparameters are 
+Hyperparameters are by default
 
 ## Inference
 To generate the results, run
