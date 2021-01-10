@@ -21,6 +21,12 @@ python train.py
 ```
 Hyperparameters are 
 
+## Inference
+To generate the results, run
+``` bash
+python inference.py
+```
+
 ## Model
 Model is defined in [model.py](model.py)
 
