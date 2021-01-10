@@ -7,5 +7,3 @@ The pre-print paper on arXiv can be found [here](https://arxiv.org/abs/2012.1001
 A 1 min brief introduction video can be found [here](https://youtu.be/XFjoZJb_41E) in YouTube. 
 
 The full 10 mins introduction video can be found [here](https://youtu.be/0r96U0vXsCM) in YouTube. 
-
-More details will be added shortly.
