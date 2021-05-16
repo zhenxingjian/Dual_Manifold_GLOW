@@ -8,6 +8,9 @@ A 1 min brief introduction video can be found [here](https://youtu.be/XFjoZJb_41
 
 The full 10 mins introduction video can be found [here](https://youtu.be/0r96U0vXsCM) in YouTube. 
 
+# Detail
+All the details of training the model/ visulization can be found in the folder here. Each folder contains multiple README.md files.
+
 # Citation
 ```
 @inproceedings{zhen2020flow,
